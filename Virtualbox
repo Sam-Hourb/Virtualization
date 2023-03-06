@@ -1,0 +1,5 @@
+//To enable nested virtualization in virtualbox vm:
+From the VirtualBox Manager, select the Enable Nested VT-x/AMD-V check box on the Processor tab. 
+To disable the feature, deselect the check box.
+Use the --nested-hw-virt option of the VBoxManage modifyvm command to enable or disable nested virtualization. 
+See VBoxManage modifyvm.
